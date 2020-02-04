@@ -36,7 +36,10 @@ public class CakeView extends SurfaceView {
     public static final float innerFlameRadius = 15.0f;
 
 
-
+    private boolean candles;
+    public boolean getCandle() {
+        return candles;
+    }
 
     /**
      * ctor must be overridden here as per standard Java inheritance practice.  We need it
