@@ -2,12 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fullBox"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
 
     <LinearLayout
+        android:id="@+id/topBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -16,7 +18,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/happyBox"
+            android:id="@+id/happyBox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Happy Birthday!"
@@ -25,6 +27,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/cakeBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -45,6 +48,7 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/leftBox"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="3"
@@ -67,6 +71,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/rightBox"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="0"
@@ -74,6 +79,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/rLBox"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="right"
@@ -97,6 +103,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/rRBox"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="right"
